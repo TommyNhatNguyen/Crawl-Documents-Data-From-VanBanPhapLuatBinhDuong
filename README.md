@@ -8,7 +8,7 @@ Crawl document's pdf links, issued date, title, ... to sort items more easily th
 
 ### 1. Problems:
 - I need to find information about “transfer of land use rights”. However, webpage was too slow for me to search information and the search bar didn't function well. Webpage:
-- 
+
 ![image](https://github.com/TommyNhatNguyen/Crawl-Documents-Data-From-VanBanPhapLuatBinhDuong/assets/86128966/4a5c4e57-a096-4563-a411-111673c66788)
 ### 2. Solutions:
 - I use **Selenium** to crawl data from ![this web page](https://www.binhduong.gov.vn/chinh-quyen/van-ban-chi-dao-dieu-hanh). Finally, I find the information I want by quickly search values in "trich_yeu" column. Data after crawl: 
